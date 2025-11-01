@@ -13,6 +13,7 @@
   import Day from "./Day.svelte";
   import Nav from "./Nav.svelte";
   import WeekNum from "./WeekNum.svelte";
+  import WeekReview from "./WeekReview.svelte";
   import type { ICalendarSource, IMonth, ISourceSettings } from "../types";
   import { getDaysOfWeek, getMonth, isWeekend } from "../utils";
   import PeriodicNotesCache from "../fileStore";
